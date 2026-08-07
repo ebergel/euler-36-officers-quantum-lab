@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use Six Refuses in teaching or research, please cite this software and the primary papers listed in the repository."
 title: "Six Refuses: The Impossible Quantum Lab"
 type: software
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-08-07
 license: MIT
 authors:

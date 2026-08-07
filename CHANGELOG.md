@@ -4,7 +4,7 @@ All notable project changes are documented here.
 
 The format follows Keep a Changelog, and releases use semantic versioning.
 
-## Unreleased
+## 1.0.1 — 2026-08-07
 
 ### Security
 

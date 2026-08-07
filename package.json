@@ -1,6 +1,6 @@
 {
   "name": "six-refuses",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An interactive first-principles quantum mechanics lab built around Euler's 36 officers problem.",
   "private": true,
   "license": "MIT",
