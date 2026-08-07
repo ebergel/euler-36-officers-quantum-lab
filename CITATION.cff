@@ -9,7 +9,7 @@ authors:
   - family-names: "Bergel"
     given-names: "Eduardo"
     alias: "ebergel"
-repository-code: "https://github.com/ebergel/six-refuses"
+repository-code: "https://github.com/ebergel/euler-36-officers-quantum-lab"
 url: "https://six-refuses.eduardofabianbergel.chatgpt.site"
 abstract: "An interactive first-principles quantum mechanics lab built around Euler's impossible 36 officers problem and the Golden QOLS(6) construction."
 keywords:

@@ -17,8 +17,8 @@ project’s MIT License.
 
 Requirements: Node.js 22.13 or newer and npm.
 
-    git clone https://github.com/ebergel/six-refuses.git
-    cd six-refuses
+    git clone https://github.com/ebergel/euler-36-officers-quantum-lab.git
+    cd euler-36-officers-quantum-lab
     npm ci
     npm run dev
 

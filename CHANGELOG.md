@@ -4,6 +4,15 @@ All notable project changes are documented here.
 
 The format follows Keep a Changelog, and releases use semantic versioning.
 
+## Unreleased
+
+### Changed
+
+- Renamed the public repository to `euler-36-officers-quantum-lab` while keeping
+  “Six Refuses” as the app’s short name and “The Impossible Quantum Lab” as its
+  editorial title.
+- Broadened the audience language to welcome highly curious learners of any age.
+
 ## 1.0.1 — 2026-08-07
 
 ### Security
