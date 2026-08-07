@@ -30,7 +30,7 @@ tensor products, entanglement, orthogonality, and perfect tensors.
 
 ## How the lab teaches
 
-Six Refuses treats the learner as a young researcher, not a quiz-taker.
+Six Refuses treats the learner as a researcher, not a quiz-taker.
 
 - **Predict before revealing.** Experiments ask the learner to commit before
   showing an outcome.
