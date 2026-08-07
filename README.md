@@ -1,31 +1,32 @@
-# Six Refuses
+# The Impossible Quantum Lab
 
-**A first-principles quantum mechanics lab built around Euler’s impossible 36 officers problem.**
+**Euler’s 36 Officers Quantum Lab — quantum mechanics from first principles
+through one classically impossible puzzle.**
 
 [![Live lab](https://img.shields.io/badge/live-lab-c8ff4c)](https://six-refuses.eduardofabianbergel.chatgpt.site)
-[![CI](https://github.com/ebergel/six-refuses/actions/workflows/ci.yml/badge.svg)](https://github.com/ebergel/six-refuses/actions/workflows/ci.yml)
+[![CI](https://github.com/ebergel/euler-36-officers-quantum-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/ebergel/euler-36-officers-quantum-lab/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-52d8e8.svg)](LICENSE)
 
 ![Six Refuses social preview](public/og.png)
 
 [Open the live lab](https://six-refuses.eduardofabianbergel.chatgpt.site)
 
-Six Refuses is an interactive learning experience for curious teenagers,
-educators, and adult beginners who want rigorous quantum intuition without
-starting from slogans. It begins with a classical arrangement that cannot be
-completed and ends with the published Golden QOLS(6): 36 exact quantum states
-whose coherence makes a deeper quantum version of the structure possible.
+Six Refuses is an interactive learning experience for anyone who is highly
+curious and wants rigorous quantum intuition without starting from slogans. It
+begins with a classical arrangement that cannot be completed and ends with the
+published Golden QOLS(6): 36 exact quantum states whose coherence makes a deeper
+quantum version of the structure possible.
 
 ## Who it is for
 
-The primary learner is a highly curious 14–17-year-old who is comfortable with
-basic algebra and willing to think carefully. No calculus or previous quantum
+The primary learner is anyone who is highly curious, comfortable with basic
+algebra, and willing to think carefully. No calculus or previous quantum
 mechanics is required. The notation is real quantum notation, introduced only
 after an interaction gives it something concrete to describe.
 
-The lab is also useful to educators and adults looking for an operational,
-mathematically honest introduction to amplitudes, interference, tensor
-products, entanglement, orthogonality, and perfect tensors.
+The lab is also useful to educators and self-taught learners looking for an
+operational, mathematically honest introduction to amplitudes, interference,
+tensor products, entanglement, orthogonality, and perfect tensors.
 
 ## How the lab teaches
 
@@ -64,8 +65,8 @@ analytic state data.
 
 Requirements: Node.js 22.13 or newer and npm.
 
-    git clone https://github.com/ebergel/six-refuses.git
-    cd six-refuses
+    git clone https://github.com/ebergel/euler-36-officers-quantum-lab.git
+    cd euler-36-officers-quantum-lab
     npm ci
     npm run dev
 
