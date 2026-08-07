@@ -4,6 +4,19 @@ All notable project changes are documented here.
 
 The format follows Keep a Changelog, and releases use semantic versioning.
 
+## Unreleased
+
+### Security
+
+- Updated the application and build dependency graph to versions with no known
+  vulnerabilities reported by `npm audit` at the time of the update.
+
+### Changed
+
+- Prepared the Vite configuration for its future native configuration loader.
+- Kept incompatible TypeScript, ESLint, and Node type-definition major upgrades
+  out of routine Dependabot updates until they receive dedicated migrations.
+
 ## 1.0.0 — 2026-08-07
 
 ### Added

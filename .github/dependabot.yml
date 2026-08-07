@@ -10,6 +10,18 @@ updates:
         update-types:
           - minor
           - patch
+    ignore:
+      # These toolchain majors require deliberate migration work and currently
+      # fail the project's verification suite. Security updates remain enabled.
+      - dependency-name: typescript
+        update-types:
+          - version-update:semver-major
+      - dependency-name: eslint
+        update-types:
+          - version-update:semver-major
+      - dependency-name: "@types/node"
+        update-types:
+          - version-update:semver-major
   - package-ecosystem: github-actions
     directory: /
     schedule:
