@@ -40,3 +40,9 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+/tmp/
+
+# Local research inputs. The public project cites the originals instead of
+# redistributing a paper PDF or a transcript derived from a third-party video.
+/euler.6x6.paper.pdf
+/quantum simulation Euler 6 by 6 problem.md

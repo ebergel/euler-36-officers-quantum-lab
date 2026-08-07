@@ -1,0 +1,34 @@
+name: Scientific correction
+description: Challenge or refine a physics, mathematics, or history claim.
+title: "[Science]: "
+labels:
+  - science
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Claim location
+      description: Name the lab, sentence, equation, or source line.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current claim and concern
+      description: Quote briefly and explain what may be inaccurate or misleading.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Give precise replacement language or mathematics.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Link papers, textbooks, or official documentation and include the relevant section or equation.
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use Six Refuses in teaching or research, please cite this software and the primary papers listed in the repository."
+title: "Six Refuses: The Impossible Quantum Lab"
+type: software
+version: 1.0.0
+date-released: 2026-08-07
+license: MIT
+authors:
+  - family-names: "Bergel"
+    given-names: "Eduardo"
+    alias: "ebergel"
+repository-code: "https://github.com/ebergel/six-refuses"
+url: "https://six-refuses.eduardofabianbergel.chatgpt.site"
+abstract: "An interactive first-principles quantum mechanics lab built around Euler's impossible 36 officers problem and the Golden QOLS(6) construction."
+keywords:
+  - quantum mechanics
+  - quantum information
+  - science education
+  - orthogonal Latin squares
+  - Euler 36 officers
+  - absolutely maximally entangled states

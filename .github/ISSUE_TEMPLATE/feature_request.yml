@@ -1,0 +1,34 @@
+name: Learning interaction proposal
+description: Propose a new experiment, explanation, or contributor feature.
+title: "[Proposal]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Learner question
+      description: What single question should the learner be able to answer?
+    validations:
+      required: true
+  - type: textarea
+    id: interaction
+    attributes:
+      label: Predict, run, notice, explain, break
+      description: Sketch the full interaction cycle.
+    validations:
+      required: true
+  - type: textarea
+    id: science
+    attributes:
+      label: Mathematical model and sources
+      description: State the invariant, equation, and primary source.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Scope and limitations
+      description: What should this interaction explicitly not claim?
+    validations:
+      required: true

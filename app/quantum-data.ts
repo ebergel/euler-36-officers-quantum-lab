@@ -1,5 +1,26 @@
 export type AmplitudeKey = "a" | "b" | "c";
 
+/**
+ * DATA ATTRIBUTION
+ *
+ * The Golden QOLS(6) state table in this file is adapted from Appendix B of:
+ * Karol Życzkowski, Wojciech Bruzda, Grzegorz Rajchel-Mieldzioć,
+ * Adam Burchardt, Suhail Ahmad Rather, and Arul Lakshminarayan,
+ * “9 × 4 = 6 × 6: Understanding the quantum solution to Euler’s problem
+ * of 36 officers,” J. Phys.: Conf. Ser. 2448 012003 (2023),
+ * https://doi.org/10.1088/1742-6596/2448/1/012003,
+ * arXiv:2204.06800v2.
+ *
+ * Source license: Creative Commons Attribution 4.0 International
+ * https://creativecommons.org/licenses/by/4.0/
+ *
+ * Modifications: converted the printed formulas into zero-based sparse
+ * TypeScript records; preserved mathematical coefficients and phase exponents;
+ * replaced the paper's visual color labels with accessible UI names and colors.
+ * The adapted state-table data remain available under CC BY 4.0. The
+ * surrounding implementation is licensed separately under MIT.
+ */
+
 export type QuantumComponent = {
   basis: `${number}${number}`;
   amplitude: AmplitudeKey;
@@ -52,9 +73,7 @@ const q = (
   })),
 });
 
-// The analytic golden QOLS(6) construction from Appendix B of
-// “9 × 4 = 6 × 6: Understanding the quantum solution to Euler’s problem
-// of 36 officers” (arXiv:2204.06800). A phase k means exp(iπk/10).
+// A phase k means exp(iπk/10).
 export const QUANTUM_OFFICERS: QuantumOfficer[] = [
   q(0, 0, [["10", "c"], ["43", "a", 3], ["53", "b"]]),
   q(0, 1, [["00", "c"], ["43", "b"], ["53", "a", 7]]),
@@ -104,4 +123,3 @@ export const getOfficer = (row: number, column: number) =>
 
 export const probabilityFor = (component: QuantumComponent) =>
   AMPLITUDES[component.amplitude] ** 2;
-
