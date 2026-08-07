@@ -1,0 +1,32 @@
+name: Quantum data integrity report
+description: Report a possible coefficient, phase, basis, or invariant discrepancy.
+title: "[Data]: "
+labels:
+  - data-integrity
+body:
+  - type: input
+    id: officer
+    attributes:
+      label: Officer or coordinate
+      placeholder: "ψ24, row 3 column 5, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: discrepancy
+    attributes:
+      label: Suspected discrepancy
+      description: Include basis labels, amplitudes, phases, and expected values.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source comparison
+      description: Cite the paper version, page, appendix, equation, or independent calculation.
+    validations:
+      required: true
+  - type: textarea
+    id: verifier
+    attributes:
+      label: Verifier output
+      description: Paste the relevant deterministic test output or a minimal reproducer.
