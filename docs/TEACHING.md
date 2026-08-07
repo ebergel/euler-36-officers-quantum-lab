@@ -2,9 +2,10 @@
 
 ## Learner model
 
-The primary learner is highly curious, approximately 14–17 years old, and
-comfortable with algebra but new to quantum mechanics. The project assumes
-intellectual ambition, not prior vocabulary.
+The primary learner is anyone who is highly curious, comfortable with basic
+algebra, and willing to think carefully. The project assumes intellectual
+ambition, not prior vocabulary. No calculus or previous quantum mechanics
+is required.
 
 The app should never reward speed, memorized terminology, or passive scrolling.
 Its currency is discovery: noticing an invariant, falsifying a prediction, or
