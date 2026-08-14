@@ -12,6 +12,7 @@ The format follows Keep a Changelog, and releases use semantic versioning.
   “Six Refuses” as the app’s short name and “The Impossible Quantum Lab” as its
   editorial title.
 - Broadened the audience language to welcome highly curious learners of any age.
+- Limited automated Dependabot pull requests to security-related updates.
 
 ## 1.0.1 — 2026-08-07
 

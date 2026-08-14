@@ -4,6 +4,14 @@
 
 Security updates are applied to the latest version on the main branch.
 
+## Automated dependency security
+
+Dependabot vulnerability alerts and security-update pull requests are enabled
+in the repository’s GitHub security settings. Routine scheduled version-update
+pull requests are intentionally disabled, so Dependabot should open a pull
+request only when a known security advisory affects the dependency graph and a
+compatible fix is available.
+
 ## Reporting a vulnerability
 
 Please do not disclose a vulnerability in a public issue.
